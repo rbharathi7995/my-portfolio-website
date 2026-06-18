@@ -1,0 +1,20 @@
+.projects-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+   
+}
+.project-card{
+ 
+    width:300px;
+    padding:20px;
+    border:1px solid grey;
+    border-radius:10px;
+}
+
+.technologies-class{
+    margin-bottom:1px;
+}

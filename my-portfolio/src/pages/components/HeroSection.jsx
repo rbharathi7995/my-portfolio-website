@@ -1,0 +1,29 @@
+import myPic from '../../assets/girl-profile-pic.png'
+import './HeroSection.css'
+export function HeroSection(){
+    return(
+      <>
+      <section className="hero">     
+
+      <div className="hero-text">
+            <h1> Hi, I'm Ramoju Bharathi 👋</h1>
+            <h3> Aspiring Full Stack Developer</h3>  
+             <p>I enjoy building modern and user-friendly web applications.
+            </p>
+        
+
+          <div className="hero-button">
+            <button>View Projects</button>
+            <button>Contact me</button>
+          </div>
+     </div>
+
+     <div className="hero-image">
+       <img className="myPic" src={myPic} />
+     </div>
+       </section>
+      </>
+
+
+    )
+}

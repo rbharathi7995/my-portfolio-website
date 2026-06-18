@@ -1,0 +1,42 @@
+.myPic{
+    width:250px;
+    border: 3px solid #38bdf8;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.hero{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:80px;
+   
+}
+.hero-text h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.hero-text h3{
+    font-size:24px ;
+    color:#38bdf8;
+    margin-top:10px;
+}
+.hero-text p{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.hero-text{
+ display: flex;
+ flex-direction: column;
+ 
+}
+.hero-button button:last-child {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: white;
+}
+.hero-button button:hover{
+     transform: scale(1.05);
+    transition: 0.2s;
+}
