@@ -55,8 +55,19 @@ export function Projects(){
                 <p>A personal portfolio showcasing my skills, projects, and contact information.</p>
                 <h4>Technologies Used:</h4>
                 <p>HTML, CSS, JavaScript, React</p>
-                 <button>Github</button>              
+                <a href="https://github.com/rbharathi7995/react-weather-app"
+                target="_blank"
+                rel="noopener noreferror"
+                >
+                 <button>Github</button>
+                </a>
+
+                <a href="https://my-portfolio-website-pojj.onrender.com/"
+                target="_blank"
+                rel="noopener noreferror"
+                >
                 <button>Live Demo</button>
+                </a>
                           
             </div>
 

@@ -1,16 +1,63 @@
-# React + Vite
+# 🌐 Ramoju Bharathi Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About
 
-Currently, two official plugins are available:
+This is my personal portfolio website built with React. It showcases my skills, projects, and contact information in a clean and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
+https://my-portfolio-website-pojj.onrender.com
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive design for desktop and mobile
+* Smooth scrolling navigation
+* Hero, About, Skills, Projects, and Contact sections
+* GitHub and LinkedIn profile links
+* Modern UI with hover effects
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* JavaScript
+* CSS3
+* HTML
+* Vite
+
+## Projects Included
+
+* ShopEasy (Amazon Clone)
+* Weather App
+* Calculator
+* my-portfolio
+* Expense Tracker
+* Chatbot
+
+## Getting Started
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/rbharathi7995/my-portfolio-website
+   ```
+
+2. Install dependencies:
+
+   npm install
+
+3. Start the development server:
+
+   npm run dev
+
+4. Build for production:
+
+   npm run build
+  
+  
+## Author
+
+**Ramoju Bharathi**
+
+
+## License
+
+This project is for learning and portfolio purposes.
