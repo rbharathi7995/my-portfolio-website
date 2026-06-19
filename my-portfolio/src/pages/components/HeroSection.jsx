@@ -1,4 +1,4 @@
-import myPic from '../../assets/girl-profile-pic.png'
+import myPic from '../../assets/profile.jpeg'
 import './HeroSection.css'
 export function HeroSection(){
     return(
