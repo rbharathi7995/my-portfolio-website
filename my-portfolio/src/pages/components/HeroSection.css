@@ -36,7 +36,46 @@
   border: 1px solid #38bdf8;
   color: white;
 }
-.hero-button button:hover{
-     transform: scale(1.05);
+
+
+.hero-button button{
     transition: 0.2s;
+    margin-right:20px;
+
+ 
+}
+.projects-button,
+.contact-button{
+    text-decoration:none;
+    color:white;
+}
+.hero-button button:hover{
+    transform: scale(1.1);
+   
+}
+
+@media (max-width:768px){
+    .myPic{
+        width:200px;
+        margin-top: 20px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-text h1{
+    
+        font-size: 35px;
+    }
+    .hero-text h3{
+        font-size:20px ;
+    
+    }
+    .hero-text p{
+        font-size: 14px;
+        
+    }
+    .hero-button button{
+
+    margin-bottom:20px;
+    }
 }

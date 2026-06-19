@@ -4,8 +4,8 @@ export function AboutMe(){
 
     return(
         <>
-         
-         <div className="about-me">
+         <section id="about" className="about-me">
+         <div>
             <h2>ABOUT ME</h2>          
             <p>🎓 Pursuing B.Tech in Computer Science and Engineering </p>
             <p>💻 Passionate about Full Stack Development</p>
@@ -13,6 +13,7 @@ export function AboutMe(){
             <p>📚 Continuously learning new technologies and solving real-world problems</p>
            
          </div>
+         </section>
 
         </>
     )

@@ -6,7 +6,7 @@
 
 .nav-links{
     display:flex;
-    gap:30px;
+    gap:35px;
     list-style:none;
   
    
@@ -23,5 +23,12 @@
     cursor:pointer;
 }
 
+@media (max-width:768px){
+
+  .nav-links{
+
+    gap:25px;
+  }
+}
 
 

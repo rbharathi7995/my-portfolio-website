@@ -3,17 +3,21 @@ export function Skills(){
 
     return(
         <>
+        <section id="skills">
         <div className='skills-section'>
             
-        <h2>Skills</h2>
-         <li>HTML</li>
-         <li>CSS</li>
-         <li>JAVASCRIPT</li>
-         <li>REACT</li>
-         <li>JAVA</li>
-         <li>C Programming</li>
+        <h2>SKILLS</h2>
+        <ul>
+         <li className="skill-card">HTML</li>
+         <li className="skill-card">CSS</li>
+         <li className="skill-card">JAVASCRIPT</li>
+         <li className="skill-card">REACT</li>
+         <li className="skill-card">JAVA</li>
+         <li className="skill-card">C Programming</li>
+         </ul>
 
         </div>
+        </section>
 
 
 

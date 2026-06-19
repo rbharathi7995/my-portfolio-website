@@ -3,18 +3,17 @@ import './HeroSection.css'
 export function HeroSection(){
     return(
       <>
-      <section className="hero">     
+      <section id="home" className="hero">     
 
       <div className="hero-text">
             <h1> Hi, I'm Ramoju Bharathi 👋</h1>
             <h3> Aspiring Full Stack Developer</h3>  
              <p>I enjoy building modern and user-friendly web applications.
-            </p>
-        
+            </p>       
 
           <div className="hero-button">
-            <button>View Projects</button>
-            <button>Contact me</button>
+            <button><a href="#projects" className="projects-button">View Projects</a></button>
+            <button><a href="#contact" className="contact-button">Contact me</a></button>
           </div>
      </div>
 

@@ -2,7 +2,9 @@ import './Projects.css'
 export function Projects(){
     return(
         <>
-        <h2>Projects</h2>
+        <section id="projects">
+        <div class="projects-container">
+        <h2>PROJECTS</h2>
         <div className='projects-section'>
 
             <div className="project-card">
@@ -126,7 +128,8 @@ export function Projects(){
             
 
         </div>
-        
+        </div>
+        </section>
         </>
     )
 }
